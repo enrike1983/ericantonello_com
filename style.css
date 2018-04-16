@@ -1,0 +1,417 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/**************************************
+CSS RESET
+**************************************/
+@font-face {
+  font-family: 'literaregular';
+  src: url('fonts/litera_regular/litera_regular-webfont.woff2') format('woff2'),
+       url('fonts/litera_regular/litera_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'literaheavy';
+  src: url('fonts/litera_heavy/literaef-heavy-webfont.woff2') format('woff2'),
+       url('fonts/litera_heavy/literaef-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background: #000000;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none  !important;
+}
+.section-padding{
+    padding: 30px 0px;
+}
+/**************************************************************
+NAVIGATION
+**************************************************************/
+.header{
+    background: url(image/eric_1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+.bg-color {
+    background-color: RGBA(0, 0, 0, 0.42);
+    min-height: 650px;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: #080808;
+}
+.navbar{
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-nav a {
+    padding: 46px 17px 44px 17px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    font-family:literaregular;
+    font-size: 35px;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    padding: 15px 0px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.banner-text span {
+    color: #fefefe;
+    display: block;
+    margin-bottom: 15px;
+}
+.banner-text{
+    margin-top: 150px;
+}
+.banner-text h1 {
+    color: #fefefe;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.banner-text h1 + p {
+    color: #b6b6b6;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+.banner-text .Started-btn{
+    background: #f64747 none repeat scroll 0 0;
+    border: 5px solid #a53939 !important;
+    padding: 13px 35px;
+    color: #fff;
+}
+.more-btn {
+    border: 1px solid;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 16px 35px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 999;
+    -moz-user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.radius-0{
+    border-radius: 0px;
+}
+.more-btn:hover, .more-btn:focus{
+    border-color: #f64747;
+    color: #f64747;
+}
+/**************************************************************
+BANNER
+**************************************************************/
+/**************************************************************
+CTA 1
+**************************************************************/
+.cta-info {
+    background-color: #f64747;
+    padding: 40px 0px;
+    margin: 60px 0px;
+    border-radius: 5px;
+}
+.cta-info h3 {
+    font-size: 24px;
+    color: #fff;
+}
+.dec-tec {
+    font-size: 34px;
+}
+/**************************************************************
+FEATURE
+**************************************************************/
+.fea i {
+    font-size: 39px;
+    color: #f64747;
+    margin-top: 30px;
+}
+.fea-img {
+    width: 20%;
+}
+.heading h4 {
+    font-size: 18px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 20px 0px;
+}
+p {
+    color: #888;
+}
+.heading {
+    width: 80%;
+}
+.filimg{
+    margin-bottom: 30px;
+}
+.pg-titl-bdr-btm {
+    width: 100px;
+    height: 3px;
+    background-color: #f64747;
+    margin-bottom: 60px;
+}
+
+.pg-titl-long {
+    height: 1px;
+    background-color: #f64747;
+    margin-bottom: 40px;
+}
+
+hr.custom-divider {
+    height: 1px;
+   	border-top: 1px solid #313131;
+    margin: 30px 0;
+}
+
+
+hr {
+    border-top:#000;
+}
+h1 {
+    font-size: 36px;
+}
+/**************************************************************
+SUBSCRIBE
+**************************************************************/
+.contact-section h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.space {
+    margin-top: 40px;
+}
+.contact-section form {
+    padding: 30px 0;
+}
+.contact-section .btn:hover, .contact-section .btn:focus {
+    background: #f64747;
+    border: 2px solid #f64747;
+    color: #fff;
+}
+.contact-section .btn {
+    background: #fbfbfb;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #aaa;
+    font-size: 15px;
+    border-radius: 0px;
+}
+.footer_copyright p span{
+    color: #f64747;
+}
+/**************************************************************
+PORTFOLIO
+**************************************************************/
+#portfolio, #cta-1 {
+   background-color: rgb(249, 249, 249); 
+}
+
+/**************************************************************
+FOOTER
+**************************************************************/
+.footer {
+    background-color: #040E18;
+    float: left;
+    width: 100%;
+}
+.footer_social ul li a {
+    background: #2e3537 none repeat scroll 0 0;
+    border: 1px solid #2e3537;
+    box-shadow: 0 0 0 7px transparent;
+    color: #aaa;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 21px;
+    padding: 9px 13px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+.footer_social ul li {
+    margin: 2px;
+    display: inline-block;
+}
+.footer h3 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+.footer-bottom {
+    background: #040E18;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+}
+.footer-link, .footer-link:hover, .footer-link:focus
+{
+    color: #f64747;
+    text-decoration: none;
+}
+.single-news {
+    margin-bottom:20px;
+}
+
+h4 {
+    font-size:1.8em;
+    margin-bottom:20px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+/*** IMAGE HOVER ***/
+.thumb-container {
+    position: relative;
+    width: 50%;
+}
+
+.thumb-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.thumb-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thumb-container:hover .thumb-image {
+  opacity: 0.3;
+}
+
+.thumb-container:hover .thumb-middle {
+  opacity: 1;
+}
+
+.thumb-text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/**************************************************************
+Media Queries
+**************************************************************/
+@media (min-width: 220px) and (max-width: 451px){
+    .banner-text .Started-btn {
+    padding: 10px 10px;
+    }
+    .more-btn {
+        padding: 12px 15px;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .heading h4 {
+        font-size: 17px;
+    }
+    .contact-section{
+        margin-bottom: 50px;
+    }
+    .cta-info h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .header{
+        background: url(image/eric_1.jpg) no-repeat;
+        background-size: cover;
+        min-height: 200px;
+    }
+}
