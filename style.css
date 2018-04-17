@@ -79,6 +79,10 @@ a{
 .section-padding{
     padding: 30px 0px;
 }
+
+#sendmessage, #errormessage {
+    display:none
+}
 /**************************************************************
 NAVIGATION
 **************************************************************/
@@ -88,7 +92,7 @@ NAVIGATION
     min-height: 650px;
 }
 .bg-color {
-    background-color: RGBA(0, 0, 0, 0.42);
+    background-color: RGBA(0, 0, 0, 0.65);
     min-height: 650px;
 }
 .navbar-inverse {
@@ -105,9 +109,16 @@ NAVIGATION
     text-transform: uppercase;
 }
 .navbar-brand {
-    font-family:literaregular;
     font-size: 35px;
 }
+.navbar-brand .regular {
+    font-family:literaregular;
+}
+
+.navbar-brand .heavy {
+    font-family:literaheavy;
+}
+
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
@@ -337,15 +348,9 @@ h4 {
     margin-bottom:20px;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-}
-
 /*** IMAGE HOVER ***/
 .thumb-container {
     position: relative;
-    width: 50%;
 }
 
 .thumb-image {
@@ -377,10 +382,15 @@ h4 {
 }
 
 .thumb-text {
-  background-color: #4CAF50;
+  background-color: transparent;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+}
+
+.img-thumbnail {
+  padding: 0;
+  border: 1px solid #3c3c3c;
+  border-radius: 0;
 }
 
 /**************************************************************
@@ -412,6 +422,7 @@ Media Queries
     .header{
         background: url(image/eric_1.jpg) no-repeat;
         background-size: cover;
-        min-height: 200px;
+        max-height: 200px;
+        min-height:initial;
     }
 }
