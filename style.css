@@ -252,6 +252,9 @@ hr.custom-divider {
     margin: 30px 0;
 }
 
+hr.custom-spacer {
+    margin: 40px 0;
+}
 
 hr {
     border-top:#000;
