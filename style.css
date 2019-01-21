@@ -21,6 +21,10 @@ CSS RESET
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'canaro';
+    src: url('fonts/canaro.otf') format("opentype");
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -56,7 +60,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'canaro', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -75,6 +79,7 @@ table {
 }
 a{
     text-decoration: none  !important;
+    color: #f64747;
 }
 .section-padding{
     padding: 30px 0px;
@@ -86,6 +91,12 @@ a{
 /**************************************************************
 NAVIGATION
 **************************************************************/
+.main-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
 .header{
     background: url(image/eric_1.jpg) no-repeat;
     background-size: cover;
@@ -96,7 +107,7 @@ NAVIGATION
     min-height: 650px;
 }
 .navbar-inverse {
-    background-color: transparent;
+    background-color: black;
     border-color: #080808;
 }
 .navbar{
@@ -107,16 +118,18 @@ NAVIGATION
     padding: 46px 17px 44px 17px;
     color: #fff;
     text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.30em;
 }
 .navbar-brand {
     font-size: 35px;
 }
-.navbar-brand .regular {
-    font-family:literaregular;
+.navbar-brand .literal-regular {
+    font-family:'literaregular';
 }
 
 .navbar-brand .heavy {
-    font-family:literaheavy;
+    font-family:canaro;
 }
 
 .navbar-inverse .navbar-brand {
@@ -125,7 +138,7 @@ NAVIGATION
 .navbar {
     margin-bottom: 0px;
     border: 0px;
-    padding: 15px 0px;
+    padding: 12px 0px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     color: #fff;
@@ -427,5 +440,11 @@ Media Queries
         background-size: cover;
         max-height: 200px;
         min-height:initial;
+    }
+    .navbar-inverse .navbar-brand {
+        font-size:19px;
+    }
+    .navbar {
+        padding:0;
     }
 }

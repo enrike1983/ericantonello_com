@@ -6,6 +6,7 @@
         "guzzlehttp/guzzle": "~6.0",
         "php-http/guzzle6-adapter": "^1.1",
         "swiftmailer/swiftmailer": "5.4.9",
-        "symfony/http-foundation": "^3.4"
+        "symfony/http-foundation": "^3.4",
+        "contentful/contentful": "^3.0"
     }
 }
