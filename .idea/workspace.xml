@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265e8012-ca6a-498f-9faf-e757788efd1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -27,8 +27,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="202" />
-          <entry key="HTML" value="348" />
+          <entry key="CSS" value="203" />
+          <entry key="HTML" value="444" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -41,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="248" column="18" lean-forward="true" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
+            <state relative-caret-position="399">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -78,7 +78,6 @@
       <find>faceb</find>
       <find>custom-divider</find>
       <find>.header</find>
-      <find>logo</find>
       <find>litera</find>
       <find>eric</find>
       <find>bg-c</find>
@@ -101,8 +100,9 @@
       <find>single-</find>
       <find>divider</find>
       <find>yout</find>
-      <find>you</find>
       <find>3px</find>
+      <find>you</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -126,8 +126,8 @@
         <option value="$PROJECT_DIR$/matrimonio/index.html" />
         <option value="$PROJECT_DIR$/index_new.html" />
         <option value="$PROJECT_DIR$/style_2.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -290,12 +290,12 @@
       <workItem from="1528302032231" duration="552000" />
       <workItem from="1547108919822" duration="193000" />
       <workItem from="1548149662440" duration="4142000" />
-      <workItem from="1548167583788" duration="5038000" />
+      <workItem from="1548167583788" duration="6070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44179000" />
+    <option name="totallyTimeSpent" value="45211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-333" y="-1057" width="1920" height="1057" extended-state="0" />
@@ -415,20 +415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="248" column="18" lean-forward="true" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
+        <state relative-caret-position="285">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
