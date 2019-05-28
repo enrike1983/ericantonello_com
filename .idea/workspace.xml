@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265e8012-ca6a-498f-9faf-e757788efd1b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/canaro.otf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/canaro.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cd/1_mechanichell_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/1_mechanichell_eric_antonello.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cd/2_purgatory_child_ep_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/2_purgatory_child_ep_eric_antonello.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cd/3_remission_of_sin_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/3_remission_of_sin_eric_antonello.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cd/4_flag_of_rock_ep_eric_antonello.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/4_flag_of_rock_ep_eric_antonello.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/logo_og.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/logo_og.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contactform/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contactform/contactform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contactform/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/contactform/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/ross_the_boss_burning_black_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/ross_the_boss_burning_black_eric_antonello.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/shiva_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/shiva_eric_antonello.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="238" column="78" selection-start-line="238" selection-start-column="78" selection-end-line="238" selection-end-column="78" />
+            <state relative-caret-position="211">
+              <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -53,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
+            <state relative-caret-position="10773">
               <caret line="567" selection-start-line="567" selection-end-line="567" />
             </state>
           </provider>
@@ -214,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,10 +202,16 @@
               <item name="eric_monopagina" type="b2602c69:ProjectViewProjectNode" />
               <item name="eric_monopagina" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eric_monopagina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eric_monopagina" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,18 +269,19 @@
       <workItem from="1548149662440" duration="4142000" />
       <workItem from="1548167583788" duration="6849000" />
       <workItem from="1548233448425" duration="497000" />
-      <workItem from="1559053443903" duration="1851000" />
+      <workItem from="1559053443903" duration="2020000" />
+      <workItem from="1559058200292" duration="856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48338000" />
+    <option name="totallyTimeSpent" value="49363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1057" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.157082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15867944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,20 +380,20 @@
     <entry file="file://$PROJECT_DIR$/contentful.php" />
     <entry file="file://$PROJECT_DIR$/style_2.css" />
     <entry file="file://$PROJECT_DIR$/index_new.html" />
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="567" selection-start-line="567" selection-end-line="567" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="238" column="78" selection-start-line="238" selection-start-column="78" selection-end-line="238" selection-end-column="78" />
+        <state relative-caret-position="211">
+          <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10773">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
         </state>
       </provider>
     </entry>
