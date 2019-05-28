@@ -20,6 +20,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Montserrat:400,700|Open+Sans" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -49,7 +50,7 @@
     js.src = 'https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.12&appId=215828848462622&autoLogAppEvents=1';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-    <section class="header">
+    <section class="header hero">
       <div class="bg-color">
         <nav class="navbar navbar-inverse">
           <div class="container">
@@ -73,6 +74,9 @@
           </div>
         </nav>
         <img class="main-logo" src="image/logo.png">
+        <span class="hero__scroll aos-init aos-animate" data-aos="first-section" data-aos-easing="ease" data-aos-delay="800">
+            <i class="chevron bottom"></i>
+        </span>
       </div>
     </section>
     <section id="news" class="section-padding">
@@ -86,22 +90,22 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-sm-8">
-                  <div class="single-news">
+                  <div class="single-news" data-aos="fade-left">
                     <h4>New Arcana Opera Video out!</h4>
                     <p>New Arcana Opera Video is finally out! Check it out on our <a href="https://www.youtube.com/user/AlexanderWyrd">YouTube Channel</a>! </p>
                     <br>
-                    <div class="rwd-video">
+                    <div class="rwd-video" >
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/FpFb5Jc289g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </div>
                   <hr class="custom-divider">
-                  <div class="single-news">
+                  <div class="single-news" data-aos="fade-right">
                     <h4>Demo at Guitar Show 2018</h4>
                     <p>Guest demonstration at <a href="https://www.facebook.com/events/2060835077521179/">Guitar Show 2018</a> for the wonderful brand <a target="_blank" href="https://www.facebook.com/ShivaAudioDevices/">Shiva Audio Devices</a><br><br></p>
                     <img class="img-fluid img-thumbnail" src="uploads/shiva_eric_antonello.jpg">
                   </div>
                   <hr class="custom-divider">
-                  <div class="single-news">
+                  <div class="single-news" data-aos="fade-left">
                     <h4>Touring Europe with Burning Black, supporting Ross the Boss!</h4>
                     <p>Stunning news! I'll be part of a 5 days tour around Europe with Burning Black. We will be direct support for Ross The Boss, the legendary founder of MANOWAR!<br><br></p>
                     <p>
@@ -114,7 +118,7 @@
                     <img class="img-fluid img-thumbnail" src="uploads/ross_the_boss_burning_black_eric_antonello.jpg">
                   </div>
                   <hr class="custom-divider">
-                  <div class="single-news">
+                  <div class="single-news" data-aos="fade-right">
                     <h4>I'm alive!</h4>
                     <p>I'm so happy to announce that my personal website is finally online!</p>
                   </div>
@@ -159,7 +163,7 @@
           <div class="port-sec">
 
             <div id="container">
-              <div class="filimg col-sm-4 col-xs-12" data-myorder="1">
+              <div class="filimg col-sm-4 col-xs-12" data-myorder="1" data-aos="flip-down">
                 <div class="thumb-container">
                   <img src="image/cd/1_mechanichell_eric_antonello.jpg" alt="Avatar" class="img-thumbnail img-fluid thumb-image">
                   <div class="thumb-middle">
@@ -167,7 +171,7 @@
                   </div>
                 </div>
               </div>
-              <div class="filimg col-sm-4 col-xs-12" data-myorder="1">
+              <div class="filimg col-sm-4 col-xs-12" data-myorder="1" data-aos="fade-left">
                 <div class="thumb-container">
                   <img src="image/cd/2_purgatory_child_ep_eric_antonello.jpg" alt="Avatar" class="img-thumbnail img-fluid thumb-image">
                   <div class="thumb-middle">
@@ -175,7 +179,7 @@
                   </div>
                 </div>
               </div>
-              <div class="filimg col-sm-4 col-xs-12" data-myorder="1">
+              <div class="filimg col-sm-4 col-xs-12" data-myorder="1" data-aos="fade-down-left">
                 <div class="thumb-container">
                   <img src="image/cd/3_remission_of_sin_eric_antonello.jpg" alt="Avatar" class="img-thumbnail img-fluid thumb-image">
                   <div class="thumb-middle">
@@ -183,7 +187,7 @@
                   </div>
                 </div>
               </div>
-              <div class="filimg col-sm-4 col-xs-12" data-myorder="1">
+              <div class="filimg col-sm-4 col-xs-12" data-myorder="1" data-aos="fade-up-right">
                 <div class="thumb-container">
                   <img src="image/cd/4_flag_of_rock_ep_eric_antonello.png" alt="Avatar" class="img-thumbnail img-fluid thumb-image">
                   <div class="thumb-middle">
@@ -196,19 +200,19 @@
         </div>
       </div>
     </section>
-    <section id="biography" class="section-padding">
+    <section id="biography" class="section-padding" >
       <div class="container">
         <div class="row">
           <div class="page-title text-center">
             <h1>Biography</h1>
             <hr class="pg-titl-bdr-btm">
           </div>
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-6" data-aos="zoom-in">
             <p>Eric Antonello began playing at the age of 16 following the teachings of various renowned Venetian teachers and immediately cultivating interest in metal, rock, jazz and pop.</p>
             <p>Studied with Alex Stornello at the "Rock Fusion guitar" course at the Lizard Academy in Padua.</p>
             <p>He began his live experience on national and international territory with many bands performing in hundreds of venues throughout Europe.</p>
           </div>
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-6" data-aos="zoom-out-down">
             <p>At the same time he consolidated his studio experience both as a session man and as a composer, giving birth to several works distributed all over the world.</p>
             <p>He is guitarist for the band Arcana Opera and Burning Black and many other metal, jazz and pop projects.</p>
             <p>At the same time he carries out teaching and session man activities</p>
@@ -223,7 +227,7 @@
           <h1>Contact</h1>
           <hr class="pg-titl-bdr-btm">
         </div>
-        <div class="col-md-4 col-sm-6 contact-section">
+        <div class="col-md-4 col-sm-6 contact-section" data-aos="zoom-out-down">
           <h3>Contact Info</h3>
           <div class="space"></div>
           <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Venice - Italy</p>
@@ -232,7 +236,7 @@
           <div class="space"></div>
           <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+39 346 2157737</p>
         </div>
-        <div class="col-md-8 col-sm-6 contact-section">
+        <div class="col-md-8 col-sm-6 contact-section" data-aos="zoom-out-left">
           <h3>Leave me a message</h3>
           <div id="sendmessage">Thank you for your message!</div>
           <div id="errormessage">Please check all the fields</div>
@@ -303,7 +307,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/contactform/contactform.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+
+      AOS.init();
+
       $(document).ready(function(){
         // Add smooth scrolling to all links in navbar + footer link
         $(".navbar a, footer a[href='#myPage'], .overlay-detail a").on('click', function(event) {

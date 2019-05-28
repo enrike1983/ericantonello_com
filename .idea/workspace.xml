@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265e8012-ca6a-498f-9faf-e757788efd1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/canaro.otf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/canaro.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/litera_heavy/literaef-heavy-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cd/1_mechanichell_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/1_mechanichell_eric_antonello.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cd/2_purgatory_child_ep_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/2_purgatory_child_ep_eric_antonello.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cd/3_remission_of_sin_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/3_remission_of_sin_eric_antonello.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cd/4_flag_of_rock_ep_eric_antonello.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cd/4_flag_of_rock_ep_eric_antonello.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_og.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/logo_og.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contactform/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contactform/contactform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contactform/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/contactform/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/ross_the_boss_burning_black_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/ross_the_boss_burning_black_eric_antonello.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/shiva_eric_antonello.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/shiva_eric_antonello.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,38 +32,17 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="269496276">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="203" />
-          <entry key="HTML" value="444" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="380">
+              <caret line="238" column="78" selection-start-line="238" selection-start-column="78" selection-end-line="238" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -56,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="776">
+              <caret line="567" selection-start-line="567" selection-end-line="567" />
             </state>
           </provider>
         </entry>
@@ -73,11 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HTTP_OK</find>
-      <find>sendmessage</find>
-      <find>faceb</find>
-      <find>custom-divider</find>
-      <find>.header</find>
       <find>litera</find>
       <find>eric</find>
       <find>bg-c</find>
@@ -102,7 +94,12 @@
       <find>yout</find>
       <find>3px</find>
       <find>you</find>
+      <find>.js</find>
+      <find>file</find>
+      <find>main</find>
+      <find>hero</find>
       <find>logo</find>
+      <find>hero__scro</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,18 +128,12 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -183,7 +174,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-333" />
+    <option name="x" value="-254" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -290,18 +281,20 @@
       <workItem from="1528302032231" duration="552000" />
       <workItem from="1547108919822" duration="193000" />
       <workItem from="1548149662440" duration="4142000" />
-      <workItem from="1548167583788" duration="6070000" />
+      <workItem from="1548167583788" duration="6849000" />
+      <workItem from="1548233448425" duration="497000" />
+      <workItem from="1559053443903" duration="1851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45211000" />
+    <option name="totallyTimeSpent" value="48338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-333" y="-1057" width="1920" height="1057" extended-state="0" />
+    <frame x="-254" y="-1057" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.157082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,9 +318,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/parallax-bg.jpg" />
@@ -401,31 +391,19 @@
     <entry file="file://$USER_HOME$/Desktop/.htaccess" />
     <entry file="file://$PROJECT_DIR$/matrimonio/index.html" />
     <entry file="file://$PROJECT_DIR$/contentful.php" />
-    <entry file="file://$PROJECT_DIR$/style_2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/style_2.css" />
+    <entry file="file://$PROJECT_DIR$/index_new.html" />
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="776">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="380">
+          <caret line="238" column="78" selection-start-line="238" selection-start-column="78" selection-end-line="238" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
